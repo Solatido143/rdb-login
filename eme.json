@@ -1,0 +1,22 @@
+{
+  "users": {
+    "$user_id": {
+      "name": "User's Name",
+      "contact": "User's Contact Info",
+      "email": "user@example.com",
+      "residentialaddress": {
+        "houseno": 123,
+        "street": "User's street address",
+        "barangay": "User's barangay address"
+      },
+      "residencydate": 2,
+      "permanentaddress": "User's permanent address",
+      "photoid": "User's valid id",
+      "roles": {
+        "resident": true,
+        "admin": false,
+        "superadmin": false
+      }
+    }
+  }
+}
